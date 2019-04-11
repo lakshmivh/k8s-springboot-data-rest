@@ -20,7 +20,7 @@ spec:
           name: mysql-db-name
       - name: mysqlse
         secret:
-          secretName: mysql-secret
+          secretName: mysql-secret1
       containers:
       - name: po-service
         image: aia1acr.azurecr.io/po-service:__Build.BuildNumber__
