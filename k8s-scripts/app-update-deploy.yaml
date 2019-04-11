@@ -24,6 +24,8 @@ spec:
       containers:
       - name: po-service
         image: aia1acr.azurecr.io/po-service:__Build.BuildNumber__
+      imagePullSecrets:
+      - name: acr-auth
         ports:
         - containerPort: 8080
           protocol: TCP
