@@ -33,5 +33,5 @@ spec:
           mountPath: /etc/config
         - name: mysqlse
           mountPath: /etc/vol-secrets
-     imagePullSecrets:
+      imagePullSecrets:
       - name: acr-auth
